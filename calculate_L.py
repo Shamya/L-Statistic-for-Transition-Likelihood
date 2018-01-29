@@ -9,7 +9,7 @@ given the base frequency of the next state. This script could be extended to oth
 """
 
 # Author: Shamya Karumbaiah <shamya@upenn.edu>
-# License: None BUT you can encourage my efforts by crediting the code in any published material and following me on GitHub 
+# License: None BUT I appreciate if you credit the code in any published material and follow me on GitHub 
 
 """
     Input File
