@@ -4,9 +4,8 @@ This script calculates the average D'Mello's L for the student affect transition
 ### How to run the code?
 Like any other py script!
 
-Input File - affect\_sequences.csv 
-The file should contain sequence of affect observations for each student and each observer if there are multiple observers.
-Format your input file to read <student ID>,<observer1>,<observer2> in each line. Check sample file for example.
+Input File - affect\_sequences.csv <br>
+The file should contain sequence of affect observations for each student and each observer if there are multiple observers. Format your input file to read <student ID>,<observer1>,<observer2> in each line. Check sample file for example. <br>
 Verify the following before running the code -
 - data should be sorted by student_id
 - set appropriate delimiter in code 
