@@ -112,7 +112,8 @@ def write_to_csv(dmello_l_stats):
     for st1 in dmello_states:
         for st2 in dmello_states:
             trans = (st1, st2)
-            rows.append(list(trans)+dmello_l_stats[trans])
+            if trans in dmello_l_stats:
+		rows.append(list(trans)+dmello_l_stats[trans])
     with open(fn, "wb") as f:
         writer = csv.writer(f)
         writer.writerows(rows)
