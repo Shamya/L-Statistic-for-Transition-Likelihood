@@ -218,7 +218,11 @@ with open('affect_sequence.csv', 'rU') as csvfile:
 stud_seq.append(stud)       
 aff_seq.append([obs1, obs2])  
 print "number of students", len(aff_seq)
-print "number of coders", len(aff_seq[0])
+if ONE_CODER is True:
+    coder = 1
+else:
+    coder = len(aff_seq[0])
+print "number of coders", coder
 print "number of observations per student (assumes same number for all)", len(aff_seq[0][0])
 dMello_L_stats = call_dMello_L(aff_seq, stud_seq, self_trans = SELF_TRANS)
 write_to_csv(dMello_L_stats)
